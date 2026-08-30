@@ -6,25 +6,24 @@ class Doceiro
   //mais um construtor simples
   public Doceiro
      {
-            this.sabor = sabor;
-            this.preco = preco;
-        }
+        this.nome = nome;
+        this.especialidade = especialidade;
+    }
 
-        public string Sabor
-        {
-            get { return sabor; }
-            set { sabor = value; }
-        }
+    public string Nome
+    {
+        get { return nome; }
+        set { nome = value; }
+    }
 
-        public double Preco
-        {
-            get { return preco; }
-            set { if (value > 0) preco = value; }
-        }
+    public string Especialidade
+    {
+        get { return especialidade; }
+        set { especialidade = value; }
+    }
 
-        public override string ToString()
-        {
-            return $"[DOCE] Sabor: {sabor} | Preço: R$ {preco:F2}";
-        }
+    public override string ToString()
+    {
+        return $"[DOCEIRO] Chef: {nome} | Especialidade: {especialidade}";
     }
 }
