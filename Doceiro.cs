@@ -3,7 +3,6 @@ class Doceiro
   private string? nome;
   private string especialidade;
   
-  //mais um construtor simples
   public Doceiro
      {
         this.nome = nome;
