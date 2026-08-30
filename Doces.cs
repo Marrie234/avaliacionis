@@ -1,10 +1,10 @@
 class Doce
 {
     private string sabor;
-    private double preco;
+    private string preco;
 
     // Construtor simples
-    public Doce(string sabor, double preco)
+    public Doce;
     {
         this.sabor = sabor;
         this.preco = preco;
@@ -16,7 +16,7 @@ class Doce
         set { sabor = value; }
     }
 
-    public double Preco
+    public string Preco
     {
         get { return preco; }
         set 
