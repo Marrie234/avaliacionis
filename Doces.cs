@@ -1,25 +1,32 @@
-class Doce;
+class Doce
 {
-    private string? sabor;
-    private int preco;
-    public string? Nome;
-{
-    get
+    private string sabor;
+    private double preco;
+
+    // Construtor simples
+    public Doce(string sabor, double preco)
     {
-        Console.WriteLine("Procurando sabor...");
-        return sabor;
+        this.sabor = sabor;
+        this.preco = preco;
     }
-        set
+
+    public string Sabor
     {
-            if (value == null)
-            {
-                Console.WriteLine("Tem que ter sabor");
-            }
-            else
-            {
-                Console.WriteLine("Definindo nome. . .");
-                nome = value;
-            }
+        get { return sabor; }
+        set { sabor = value; }
+    }
+
+    public double Preco
+    {
+        get { return preco; }
+        set 
+        { 
+            if (value > 0) preco = value; 
         }
-}
+    }
+
+    public override string ToString()
+    {
+        return $"[DOCE] Sabor: {sabor} | Preço: R$ {preco:F2}";
+    }
 }
