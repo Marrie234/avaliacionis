@@ -10,4 +10,12 @@ private string telefone;
   }
   public strin? Nome
   {
-    get
+    get{return sabor;}
+    set{sabor = value;}
+  }
+  public double preco
+  {
+    get{return preco}
+    set//tem nada pa botar aqui
+    }
+  
