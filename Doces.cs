@@ -1,10 +1,9 @@
 class Doce
 {
     private string sabor;
-    private string preco;
+    private decimal preco; // Tipo ideal para dinheiro/moeda
 
-    // Construtor simples
-    public Doce;
+    public Doce(string sabor, decimal preco)
     {
         this.sabor = sabor;
         this.preco = preco;
@@ -16,7 +15,7 @@ class Doce
         set { sabor = value; }
     }
 
-    public string Preco
+    public decimal Preco
     {
         get { return preco; }
         set 
