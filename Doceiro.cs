@@ -1,15 +1,17 @@
 class Doceiro
 {
-  private string? nome;
-  private string especialidade;
+    private string? nome;
+    private string especialidade;
   
-  public Doceiro
-     {
+    //Adicionei os parenteses e os parametros do construtor
+    public Doceiro(string? nome, string especialidade)
+    {
         this.nome = nome;
         this.especialidade = especialidade;
     }
 
-    public string Nome
+    //Alterado para string? pra bater certo com a variável privada nome
+    public string? Nome
     {
         get { return nome; }
         set { nome = value; }
