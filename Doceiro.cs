@@ -10,7 +10,7 @@ class Doceiro
         this.especialidade = especialidade;
     }
 
-    //Alterado para string? pra bater certo com a variável privada nome
+    //mudei para string? pra bater certo com a variável privada nome
     public string? Nome
     {
         get { return nome; }
