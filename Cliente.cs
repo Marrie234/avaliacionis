@@ -1,9 +1,9 @@
 class Cliente
 {
     private string? nome;
-    private int telefone; // Alterado para int
+    private int telefone; // mudei pra int
 
-    // Construtor atualizado pra int
+    // Construtor coisado pra int
     public Cliente(string? nome, int telefone)
     {
         this.nome = nome;
@@ -16,7 +16,7 @@ class Cliente
         set { nome = value; }
     }
 
-    public int Telefone // Alterado para int
+    public int Telefone // mudei pra int
     {
         get { return telefone; }
         set { telefone = value; }
